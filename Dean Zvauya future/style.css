@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+font-family: poppin, sans-serif;
+background-color: #f8f9fa;
+color: #030406;
+}
+
+/* Navigation */
+.navbar{
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-bar {
+background-color: #212529;
+padding: 15px 0;
+}
+
+.nav-bar .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.navbar-brand {
+display: inline-block;
+background-color: black;
+color: white;
+padding: 10px 15px;
+margin: 5px;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.navbar-brand:hover {
+color: #d8dadd;
+}
+
+.navbar-nav {
+display: contents;
+background-color: #000000;
+color:white;
+padding: 20px;
+margin: 7px;
+border-radius: 5px;
+gap: 20px;
+}
+
+.navbar-active {
+color: white;
+text-decoration: none;
+}
+
+.navbar-active:hover {
+color: #404142;
+}
+
+/* Home */
+
+#home {
+min-height: 80vh;
+display: center;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background-color: #000102;
+color: white;
+}
+
+#home h1 {
+font-size: 45px;
+font-weight: bold;
+}
+
+#home h2 {
+color: #b4bdc9;
+}
+
+#home p {
+font-size: 17px;
+}
+
+/* Sections */
+
+section {
+padding: 70px 0;
+}
+
+section h2 {
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+/* About */
+
+#about {
+background-color: #ffffff;
+}
+
+
+.card-2 {
+display: flex;
+gap: 50px;
+}
+
+.dee {
+flex: 1;
+padding: 6px;
+}
+
+.dee img {
+width: 160px;
+height: 160px;
+border-radius: 50%;
+margin-bottom: 20px;
+}
+
+.dee p {
+line-height: 1.6;
+}
+
+/* Skills */
+
+.skills {
+display: inline-block;
+background-color: black;
+color: white;
+padding: 6px 12px;
+border-radius: 5px;
+margin: 3px;
+}
+
+/* Projects */
+
+#projects {
+background-color: #f8f9fa;
+text-align: center;
+}
+
+#projects a {
+display: inline-block;
+background-color: black;
+color: white;
+padding: 10px 15px;
+margin: 5px;
+border-radius: 5px;
+text-decoration: none;
+}
+
+#projects a:hover {
+background-color: #0d6efd;
+}
+
+/* Contact */
+
+#contact {
+background-color: #212529;
+color: white;
+text-align: center;
+}
+
+#contact h2 {
+color: white;
+}
+
+.background {
+    min-height: 100vh;
+    background-image: url("imgs/What-is-Web-Development_header.png.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.bg-1 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+.project-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.footer{
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+
+}
+
